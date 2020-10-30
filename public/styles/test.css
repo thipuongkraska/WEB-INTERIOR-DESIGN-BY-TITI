@@ -1,0 +1,32 @@
+html, body {
+    overflow-x: hidden;
+}
+.header {
+    background-color: green;
+}
+.independent {
+    background-color: grey;
+}
+.footer {
+    background-color: brown;
+}
+
+.row {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    padding: 20px 10px 10px 10px;
+}
+
+/*.column {
+    width : 33.33%;
+    display: inline-block;
+    
+}*/
+
+#img {
+    width: 25vw;
+    height: 25vw;
+}
+

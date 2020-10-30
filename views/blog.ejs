@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+<body>
+    <div class="header">
+        <% dulieu.forEach((item)=> { %>
+            <h1> <%= item.article %> </h1>
+            <img src= <%= item.imgLink %> >
+            <p> <%= item.subContent %> </p>
+            <form action="/blog/<%= item.param %>" method="POST">
+                <input type="submit" value="Read more">
+            </form>
+        <% }) %>
+    </div>
+</body>
+</html>
